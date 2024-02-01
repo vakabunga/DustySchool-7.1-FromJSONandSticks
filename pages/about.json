@@ -1,0 +1,4 @@
+{
+  "title": "О нас",
+  "content": "<ul><li><a class='main link' href='/'>Главная</a></li><li><a class='active about link' href='/about'>О нас</a></li><li><a class='link contacts' href='/contacts'>Контакты</a></li><p>Мы ученики самой лучше школы Dusty Frontend School</p>"
+}

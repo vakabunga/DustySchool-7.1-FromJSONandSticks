@@ -1,0 +1,9 @@
+.active {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0000ee;
+}
