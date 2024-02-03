@@ -9,7 +9,6 @@ pageContent.addEventListener('click', (event) => {
   target = event.target;
   if (target.classList.contains('link')) {
     const link = target.href.substring(21);
-    console.log(link);
     dataRequest(link)
       .then(data => {
         renderPage(data);

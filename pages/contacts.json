@@ -1,4 +1,4 @@
 {
   "title": "Контакты",
-  "content": "<ul><li><a class='main link' href='/'>Главная</a></li><li><a class='about link' href='/about'>О нас</a></li><li><a class='link active contacts' href='/contacts'>Контакты</a></li><p>Страница в разработке</p>"
+  "content": "<ul><li><a class='main link' href='/'>Главная</a></li><li><a class='about link' href='/about'>О нас</a></li><li><a class='link active contacts' href='/contacts'>Контакты</a></li><li><a class='404 link' href='/404'>Этой страницы не существует</a></li><p>Страница в разработке</p>"
 }
