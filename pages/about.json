@@ -1,4 +1,4 @@
 {
   "title": "О нас",
-  "content": "<ul><li><a class='main link' href='/'>Главная</a></li><li><a class='active about link' href='/about'>О нас</a></li><li><a class='link contacts' href='/contacts'>Контакты</a></li><li><a class='404 link' href='/404'>Этой страницы не существует</a></li><h3>Мы ученики самой лучше школы Dusty Frontend School</h3>"
+  "content": "<ul><li><a class='main link' href='/'>Главная</a></li><li><a class='active about link' href='/about'>О нас</a></li><li><a class='link contacts' href='/contacts'>Контакты</a></li><li><a class='404 link' href='/gukv6'>Этой страницы не существует</a></li><h3>Мы ученики самой лучше школы Dusty Frontend School</h3>"
 }
