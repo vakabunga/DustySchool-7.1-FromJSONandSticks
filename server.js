@@ -3,10 +3,8 @@ const http = require('http');
 require('cors');
 const port = 3000;
 
-
-
 const server = http.createServer((req, res) => {
-  const url = req.url;
+  url = req.url;
   let filePath;
 
   res.writeHead(200, {
@@ -17,11 +15,10 @@ const server = http.createServer((req, res) => {
   if (url === '/') {
     filePath = './pages/index.json';
   } else {
-    console.log('else')
-    filePath = './pages' + url + '.json';
+    filePath = fs.existsSync('./pages' + url + '.json') ? './pages' + url + '.json' : './pages/404.json';
   }
 
-  const data = fs.readFileSync(filePath, 'utf-8');
+  data = fs.readFileSync(filePath, 'utf-8');
 
   res.write(data)
 
